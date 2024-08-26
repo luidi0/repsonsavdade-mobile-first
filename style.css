@@ -2,6 +2,7 @@
 @import url(style/banner.css);
 @import url(style/carro\ céu.css);
 @import url(style/topico.css);
+@import url(style/contato.css);
 
 :root{
     --background-color: #1d1d1d;
