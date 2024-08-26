@@ -1,0 +1,30 @@
+.topicos{
+    background: #1d1d1d;
+    text-align: center;
+}
+
+.topicos-titulo{
+   color: var(--white);
+   padding: 1em;
+}
+
+.topicos-lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.5em;
+}
+
+.topicos-link{
+    color: var(--white);
+    padding: 1em;
+    background-color: #03ccd3;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.topicos-item{
+    margin: 2em 0.5em;
+    font-family: "Poppins";
+}

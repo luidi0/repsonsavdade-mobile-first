@@ -1,0 +1,67 @@
+.carousel-title{
+    color: var(--white);
+    background-color: var(--background-color);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1em 0 1em 0;
+    font-family: var(--fonte-principal);
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.card-descricao{
+    display:flex;
+    justify-content: space-between;
+    font-family: "Poppins";
+    margin-bottom: 0.5em;
+}
+
+.card-botoes{
+    display:flex;
+    justify-content: space-between;
+}
+
+.botoes{
+    display:flex;
+}
+
+.card{
+    background: #363636;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+
+}
+
+.descricao-titulo{
+    color: var(--white);
+    font-weight: 700;
+}
+
+.descricao-titulo-livro{
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+.descricao-texto{
+    font-size: 14px;
+}
+
+.botoes-item{
+    margin: 0 0.5em;
+}
+
+.botoes-ancora{
+    background-color: #03ccd3;
+    padding: 1em 2.2em;
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 700;
+
+}

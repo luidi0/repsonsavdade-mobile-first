@@ -1,0 +1,39 @@
+:root{
+    --banner-color: #444444;
+}
+
+.blue-banner{
+    background-color: var(--banner-color);
+    color: var(--white);
+    text-align: center;
+    padding: 2.5em 2em;
+    font-family: var(--fonte-principal);
+}
+
+.banner-title{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.banner-text{
+    font-weight: 500;
+    margin: 1em;
+}
+
+.banner-searchbar{
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    color:rgb(255, 255, 255);
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+}
+
+.banner-searchbar::placeholder{
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    background: url("../img/Alura.png") ;
+    background-repeat: no-repeat;
+    background-size: 20px;
+
+}
